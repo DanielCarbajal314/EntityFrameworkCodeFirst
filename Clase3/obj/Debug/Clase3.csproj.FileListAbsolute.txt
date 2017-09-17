@@ -1,0 +1,10 @@
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\bin\Debug\Clase3.dll.config
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\bin\Debug\Clase3.dll
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\bin\Debug\Clase3.pdb
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\bin\Debug\EntityFramework.dll
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\bin\Debug\EntityFramework.xml
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\obj\Debug\Clase3.csprojResolveAssemblyReference.cache
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\obj\Debug\Clase3.dll
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\obj\Debug\Clase3.pdb
