@@ -50,7 +50,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contextos\Biblioteca.cs" />
+    <Compile Include="Migrations\201709171544256_InitialCreate.cs" />
+    <Compile Include="Migrations\201709171544256_InitialCreate.Designer.cs">
+      <DependentUpon>201709171544256_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709171551098_Categorias.cs" />
+    <Compile Include="Migrations\201709171551098_Categorias.Designer.cs">
+      <DependentUpon>201709171551098_Categorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Modelos\Autor.cs" />
     <Compile Include="Modelos\BaseEntity.cs" />
+    <Compile Include="Modelos\Categoria.cs" />
     <Compile Include="Modelos\Libro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,7 +69,14 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201709171544256_InitialCreate.resx">
+      <DependentUpon>201709171544256_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709171551098_Categorias.resx">
+      <DependentUpon>201709171551098_Categorias.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

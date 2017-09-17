@@ -13,12 +13,21 @@ namespace ConsolaDeDatos
         static void Main(string[] args)
         {
             Biblioteca biblitoteca = new Biblioteca();
+            Autor autor = new Autor();
+            autor.Nacionalidad = "Peruana";
+            autor.FechaNacimiento = DateTime.Now;
+            autor.Nombre = "Daniel";
             Libro nuevoLibro = new Libro();
-            nuevoLibro.Autor = "Daniel";
             nuevoLibro.Edicion = 3;
             nuevoLibro.Genero = "Terror";
             nuevoLibro.Nombre = "Cibertac";
-            biblitoteca.Libros.Add(nuevoLibro);
+            autor.Libros.Add(nuevoLibro);
+            Categoria categoria1 = new Categoria();
+            categoria1.Nombre = "Terror";
+            nuevoLibro.Categorias.Add(categoria1);
+
+
+            biblitoteca.Autores.Add(autor);
             biblitoteca.SaveChanges();
         }
     }

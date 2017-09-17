@@ -8,3 +8,6 @@ C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\bin\Debug\EntityFramework.SqlSe
 C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\obj\Debug\Clase3.csprojResolveAssemblyReference.cache
 C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\obj\Debug\Clase3.dll
 C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\obj\Debug\Clase3.pdb
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\obj\Debug\Clase3.Migrations.InitialCreate.resources
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\obj\Debug\Clase3.csproj.GenerateResource.Cache
+C:\Users\Visual_Dom\Desktop\Clases\Clase3\Clase3\obj\Debug\Clase3.Migrations.Categorias.resources
