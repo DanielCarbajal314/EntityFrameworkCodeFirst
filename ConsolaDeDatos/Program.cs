@@ -20,13 +20,11 @@ namespace ConsolaDeDatos
             Libro nuevoLibro = new Libro();
             nuevoLibro.Edicion = 3;
             nuevoLibro.Genero = "Terror";
-            nuevoLibro.Nombre = "Cibertac";
+            nuevoLibro.Nombre = "Perros Hambrientos";
             autor.Libros.Add(nuevoLibro);
             Categoria categoria1 = new Categoria();
             categoria1.Nombre = "Terror";
             nuevoLibro.Categorias.Add(categoria1);
-
-
             biblitoteca.Autores.Add(autor);
             biblitoteca.SaveChanges();
         }
